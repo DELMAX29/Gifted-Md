@@ -2,8 +2,8 @@
 const fs = require("fs");
 require("dotenv").config();
 
-const config = {
-  SESSION_ID: process.env.SESSION_ID || "Gifted~5M1DA6vm",
+const config = { 
+  SESSION_ID: process.env.SESSION_ID || "Gifted~5M1DAvm",
   HEROKU_API_TOKEN: process.env.HEROKU_API_TOKEN || "HRKU-0a1fe665-8a35-42e8-b7ad-761f25ffe195",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   KOYEB_API_TOKEN: process.env.KOYEB_API_TOKEN || "",
